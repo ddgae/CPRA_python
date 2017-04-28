@@ -1,3 +1,7 @@
+""" copyright 2017 David Gae
+    University of California, San Francisco
+    usage: python CPRA.py test.txt
+"""
 #!/opt/local/bin/python
 import sys,os
 import numpy as np
