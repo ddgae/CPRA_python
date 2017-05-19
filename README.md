@@ -1,7 +1,7 @@
 # CPRA_python
 
-CPRA calculator as done by OPTN. 
-run python code e.g. 
+CPRA calculator  
+running CPRA python code e.g. 
 
 python CPRA.py test.txt
 
