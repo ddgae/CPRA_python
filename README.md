@@ -1,7 +1,6 @@
 # CPRA_python
 
-CPRA calculator  
-running CPRA python code e.g. 
+standlone CPRA calculator python code  
 
 python CPRA.py test.txt
 
