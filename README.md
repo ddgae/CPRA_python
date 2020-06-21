@@ -6,8 +6,7 @@ This Program is to calculate the percentage value based on the unacceptable anti
     <hr class="styled-hr" />
     <div></div>
 </div>
-<p style="'font-family:Courier New'"
-Calculation of a Predictive value for transplantation. 
+<p style="font-family:Arial">Calculation of a Predictive value for transplantation. 
 Andrea A. Zachary and William E. Braun Transplantion 1985 p 316-317</p>
 <div>
     <div></div>
