@@ -12,7 +12,6 @@ Andrea A. Zachary and William E. Braun Transplantion 1985 p 316-317</p>
 The dictionary of HLA antigen frequency that was formulated in order to run this program. This version works for python.
 
 <p style>python CPRA.py test.txt
-
 Example input text file: (test.txt)
 A:1,2
 B:7,8
