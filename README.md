@@ -1,7 +1,13 @@
 # CPRA Legancy calculator (python version)
 
 This small program is to calculate the percentage value based on the unacceptable antigens
+<div>
+    <div></div>
+    <hr class="styled-hr" />
+    <div></div>
+</div>
 
+<font size="12">
 Calculation of a Predictive value for transplantation. 
 Andrea A. Zachary and William E. Braun Transplantion 1985 p 316-317
 
