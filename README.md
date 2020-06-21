@@ -20,7 +20,7 @@ C:1 </p>
 Andrea A. Zachary and William E. Braun Transplantion 1985 p 316-317</p>
 
 <p style=<"font-size:12"<font-family:Arial,font-size=10">Calculated PRA (CPRA): The New Measure of Sensitization for Transplant Candidates. 
-J M Cecka. Am J. Transplant 2010 </p>
+J M Cecka. Am J. Transplant 2010 p.26-29 </p>
 
 
 
