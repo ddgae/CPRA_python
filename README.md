@@ -1,6 +1,6 @@
 # CPRA Legancy calculator (python version)
 
-This small program is to calculate the percentage value based on the unacceptable antigens
+This Program is to calculate the percentage value based on the unacceptable antigens
 <div>
     <div></div>
     <hr class="styled-hr" />
