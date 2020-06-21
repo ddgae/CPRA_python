@@ -9,7 +9,7 @@ This Program is to calculate the percentage value based on the unacceptable anti
 <p style="font-size:20><"font-family:Arial">Calculation of a Predictive value for transplantation. 
 Andrea A. Zachary and William E. Braun Transplantion 1985 p 316-317</p>
 
-The dictionary of HLA antigen frequency that was formulated in order to run this program. This version works for python 2.
+The dictionary of HLA antigen frequency that was formulated in order to run this program. This version works for python.
 
 <p style>python CPRA.py test.txt
 
