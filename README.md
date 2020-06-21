@@ -10,7 +10,8 @@ This small program is to calculate the percentage value based on the unacceptabl
 <font size="12">
 Calculation of a Predictive value for transplantation. 
 Andrea A. Zachary and William E. Braun Transplantion 1985 p 316-317
-
+<font size="12">
+    
 Calculated PRA (CPRA): The New Measure of Sensitization for Transplant Candidates 
 J M Cecka. Am J. Transplant 2010 
 python CPRA.py test.txt
