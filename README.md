@@ -16,7 +16,7 @@ python CPRA.py test.txt
 <div></div>
 
 <div></div>
-Make sure you put all these genotypes for the caluclator. 
+For example, this will be your "text.txt" file. Make sure you put all these genotypes for the caluclator. 
 A:1,2
 B:7,8
 DR:1
