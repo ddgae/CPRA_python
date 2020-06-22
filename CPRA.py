@@ -410,7 +410,8 @@ if __name__ == '__main__':
     #five
     ABDRDQC = pd.read_csv('./FREQ/ABDRDQC.csv')
 
-
+# equivalence of antigen types is listed below but decided not to include in the code because was not in the paper.
+# so if the answer you can get from OPTN vs mine is different then I didnt include this in the code.
 eqDR51 = [ 'DR2','DR15','DR16','DR51']
 eqDR52 = [ 'DR3','DR5','DR6','DR11','DR12','DR13','DR14','DR17','DR18']
 eqDR53 = [ 'DR4','DR7','DR9']
@@ -457,7 +458,8 @@ cnt4 = 0
 cnt5 = 0
 i = 0
 if not clist[0] == ['']:
-    for cnt in xrange((len(clist[0])-(clist[0].count(0)))):
+    for cnt in range((len(clist[0]) - (clist[0].count(0)))):
+    #for cnt in xrange((len(clist[0])-(clist[0].count(0)))): python3 version change
             # index position in dflist
             # if listA[cnt-1] == []:
             #        listA.remove([])
@@ -471,7 +473,8 @@ if not clist[0] == ['']:
             S1d += np.sum(A.iloc[cnt1, 4])
 
 if not clist[1] == ['']:
-    for cnt in xrange((len(clist[1])-(clist[1].count(0)))):
+    for cnt in range((len(clist[1])-(clist[1].count(0)))):
+    #for cnt in xrange((len(clist[1])-(clist[1].count(0)))): python3 version change
             # index position in dflist
             cnt1 = dflistB.index(clist[1][cnt])
             # print cnt1
@@ -482,7 +485,8 @@ if not clist[1] == ['']:
             # print S1a
 
 if not clist[2] == ['']:
-    for cnt in xrange((len(clist[2])-(clist[2].count(0)))):
+    for cnt in range((len(clist[2])-(clist[2].count(0)))):
+    #for cnt in xrange((len(clist[2])-(clist[2].count(0)))): python3 version change
             # index position in dflist
             cnt1 = dflistC.index(clist[2][cnt])
             # print cnt1
@@ -493,7 +497,8 @@ if not clist[2] == ['']:
             # print S1a
 
 if not clist[3] == ['']:
-    for cnt in xrange((len(clist[3])-(clist[3].count(0)))):
+    for cnt in range((len(clist[3]) - (clist[3].count(0)))):
+    #for cnt in xrange((len(clist[3])-(clist[3].count(0)))): python3 version change
             # index position in dflist
             cnt1 = dflistDR.index(clist[3][cnt])
             #print cnt
@@ -505,7 +510,8 @@ if not clist[3] == ['']:
             # print S1a
 
 if not clist[4] == ['']:
-    for cnt in xrange((len(clist[4])-(clist[4].count(0)))):
+    for cnt in range((len(clist[4]) - (clist[4].count(0)))):
+    #for cnt in xrange((len(clist[4])-(clist[4].count(0)))): python3 version change
             # index position in dflist
             cnt1 = dflistDQ.index(clist[4][cnt])
             # print cnt1
@@ -519,7 +525,8 @@ if not clist[4] == ['']:
 # two locus
 # AB
 if not clist[5] == ['']:
-    for cnt2 in xrange((len(clist[5])-(clist[5].count(0)))):
+    for cnt2 in range((len(clist[5]) - (clist[5].count(0)))):
+    #for cnt2 in xrange((len(clist[5])-(clist[5].count(0)))): python3 version change
         # index position in dflist
         try:
             column = dflistAB1.index(clist[5][cnt2])
@@ -537,7 +544,8 @@ if not clist[5] == ['']:
 
 # AC
 if not clist[6] == ['']:
-    for cnt2 in xrange((len(clist[6]) - (clist[6].count(0)))):
+    for cnt2 in range((len(clist[6]) - (clist[6].count(0)))):
+    #for cnt2 in xrange((len(clist[6]) - (clist[6].count(0)))): python3 version change
         # index position in dflist
         try:
             column = dflistAC1.index(clist[6][cnt2])
@@ -553,7 +561,8 @@ if not clist[6] == ['']:
 
 # ADR
 if not clist[7] == ['']:
-    for cnt2 in xrange((len(clist[7]) - (clist[7].count(0)))):
+    for cnt2 in range((len(clist[7]) - (clist[7].count(0)))):
+    #for cnt2 in xrange((len(clist[7]) - (clist[7].count(0)))): python3 version change
         # index position in dflist
         try:
             column = dflistADR1.index(clist[7][cnt2])
@@ -569,7 +578,8 @@ if not clist[7] == ['']:
 
 # ADQ
 if not clist[8] == ['']:
-    for cnt2 in xrange((len(clist[8]) - (clist[8].count(0)))):
+    for cnt2 in range((len(clist[8]) - (clist[8].count(0)))):
+    #for cnt2 in xrange((len(clist[8]) - (clist[8].count(0)))): python3 version change
         # index position in dflist
         try:
             column = dflistADQ1.index(clist[8][cnt2])
@@ -585,7 +595,8 @@ if not clist[8] == ['']:
 
 # BC
 if not clist[9] == ['']:
-    for cnt2 in xrange((len(clist[9]) - (clist[9].count(0)))):
+    for cnt2 in range((len(clist[9]) - (clist[9].count(0)))):
+    #for cnt2 in xrange((len(clist[9]) - (clist[9].count(0)))): python3 version change
         # index position in dflist
         try:
             column = dflistBC1.index(clist[9][cnt2])
@@ -601,7 +612,8 @@ if not clist[9] == ['']:
 
 # BDR
 if not clist[10] == ['']:
-    for cnt2 in xrange((len(clist[10]) - (clist[10].count(0)))):
+    for cnt2 in range((len(clist[10]) - (clist[10].count(0)))):
+    #for cnt2 in xrange((len(clist[10]) - (clist[10].count(0)))): python3 version change
         # index position in dflist
         try:
             column = dflistBDR1.index(clist[10][cnt2])
@@ -617,7 +629,8 @@ if not clist[10] == ['']:
 
 # BDQ
 if not clist[11] == ['']:
-    for cnt2 in xrange((len(clist[11]) - (clist[11].count(0)))):
+    for cnt2 in range((len(clist[10]) - (clist[10].count(0)))):
+    #for cnt2 in xrange((len(clist[11]) - (clist[11].count(0)))): python3 version change
         # index position in dflist
         try:
             column = dflistBDQ1.index(clist[11][cnt2])
@@ -633,7 +646,8 @@ if not clist[11] == ['']:
 
 # DRC
 if not clist[12] == ['']:
-    for cnt2 in xrange((len(clist[12]) - (clist[12].count(0)))):
+    for cnt2 in range((len(clist[12]) - (clist[12].count(0)))):
+    #for cnt2 in xrange((len(clist[12]) - (clist[12].count(0)))): python3 version change
         # index position in dflist
         try:
             column = dflistDRC1.index(clist[12][cnt2])
@@ -649,7 +663,8 @@ if not clist[12] == ['']:
 
 # DQC
 if not clist[13] == ['']:
-    for cnt2 in xrange((len(clist[13]) - (clist[13].count(0)))):
+    for cnt2 in range((len(clist[13]) - (clist[13].count(0)))):
+    #for cnt2 in xrange((len(clist[13]) - (clist[13].count(0)))): python3 version change
         # index position in dflist
         try:
             column = dflistDQC1.index(clist[13][cnt2])
@@ -665,7 +680,8 @@ if not clist[13] == ['']:
 
 # DRDQ
 if not clist[14] == ['']:
-    for cnt2 in xrange((len(clist[14]) - (clist[14].count(0)))):
+    for cnt2 in range((len(clist[14]) - (clist[14].count(0)))):
+    #for cnt2 in xrange((len(clist[14]) - (clist[14].count(0)))): python3 version change
         # index position in dflist
         try:
             column = dflistDRDQ1.index(clist[14][cnt2])
@@ -682,7 +698,8 @@ if not clist[14] == ['']:
 #three
 # ABC
 if not clist[15] == ['']:
-    for cnt3 in xrange((len(clist[15]) - (clist[15].count(0)))):
+    for cnt3 in range((len(clist[15]) - (clist[15].count(0)))):
+    #for cnt3 in xrange((len(clist[15]) - (clist[15].count(0)))): python3 version change
         # index position in dflist
         try:
             column2 = dflistABC1.index(clist[15][cnt3])
@@ -698,7 +715,8 @@ if not clist[15] == ['']:
 
 # ABDR
 if not clist[16] == ['']:
-    for cnt3 in xrange((len(clist[16]) - (clist[16].count(0)))):
+    for cnt3 in range((len(clist[16]) - (clist[16].count(0)))):
+    #for cnt3 in xrange((len(clist[16]) - (clist[16].count(0)))): python3 version change
         # index position in dflist
         try:
             column2 = dflistABDR1.index(clist[16][cnt3])
@@ -714,7 +732,8 @@ if not clist[16] == ['']:
 
 # ABDQ
 if not clist[17] == ['']:
-    for cnt3 in xrange((len(clist[17]) - (clist[17].count(0)))):
+    for cnt3 in range((len(clist[17]) - (clist[17].count(0)))):
+    #for cnt3 in xrange((len(clist[17]) - (clist[17].count(0)))): python3 version change
     # index position in dflist
         try:
             column2 = dflistABDQ1.index(clist[17][cnt3])
@@ -730,7 +749,8 @@ if not clist[17] == ['']:
 
 # ADRC
 if not clist[18] == ['']:
-    for cnt3 in xrange((len(clist[18]) - (clist[18].count(0)))):
+    for cnt3 in range((len(clist[18]) - (clist[18].count(0)))):
+    #for cnt3 in xrange((len(clist[18]) - (clist[18].count(0)))): python3 version change
         # index position in dflist
         try:
             column2 = dflistADRC1.index(clist[18][cnt3])
@@ -746,7 +766,8 @@ if not clist[18] == ['']:
 
 # ADQC
 if not clist[19] == ['']:
-    for cnt3 in xrange((len(clist[19]) - (clist[19].count(0)))):
+    for cnt3 in range((len(clist[19]) - (clist[19].count(0)))):
+    #for cnt3 in xrange((len(clist[19]) - (clist[19].count(0)))): python3 version change
         # index position in dflist
         try:
             column2 = dflistADQC1.index(clist[19][cnt3])
@@ -762,7 +783,8 @@ if not clist[19] == ['']:
 
 # ADRDQ
 if not clist[20] == ['']:
-    for cnt3 in xrange((len(clist[20]) - (clist[20].count(0)))):
+    for cnt3 in range((len(clist[20]) - (clist[20].count(0)))):
+    #for cnt3 in xrange((len(clist[20]) - (clist[20].count(0)))): python3 version change
         # index position in dflist
         try:
             column2 = dflistADRDQ1.index(clist[20][cnt3])
@@ -778,7 +800,8 @@ if not clist[20] == ['']:
 
 # BDRC
 if not clist[21] == ['']:
-    for cnt3 in xrange((len(clist[21]) - (clist[21].count(0)))):
+    for cnt3 in range((len(clist[21]) - (clist[21].count(0)))):
+    #for cnt3 in xrange((len(clist[21]) - (clist[21].count(0)))): python3 version change
         # index position in dflist
         try:
             column2 = dflistBDRC1.index(clist[21][cnt3])
@@ -794,7 +817,8 @@ if not clist[21] == ['']:
 
 # BDQC
 if not clist[22] == ['']:
-    for cnt3 in xrange((len(clist[22]) - (clist[22].count(0)))):
+    for cnt3 in range((len(clist[22]) - (clist[22].count(0)))):
+    #for cnt3 in xrange((len(clist[22]) - (clist[22].count(0)))): python3 version change
         # index position in dflist
         try:
             column2 = dflistBDQC1.index(clist[22][cnt3])
@@ -810,7 +834,8 @@ if not clist[22] == ['']:
 
 # BDRDQ
 if not clist[23] == ['']:
-    for cnt3 in xrange((len(clist[23]) - (clist[23].count(0)))):
+    for cnt3 in range((len(clist[23]) - (clist[23].count(0)))):
+    #for cnt3 in xrange((len(clist[23]) - (clist[23].count(0)))): python3 version change
         # index position in dflist
         try:
             column2 = dflistBDRDQ1.index(clist[23][cnt3])
@@ -826,7 +851,8 @@ if not clist[23] == ['']:
 
 # DRDQC
 if not clist[24] == ['']:
-    for cnt3 in xrange((len(clist[24]) - (clist[24].count(0)))):
+    for cnt3 in range((len(clist[24]) - (clist[24].count(0)))):
+    #for cnt3 in xrange((len(clist[24]) - (clist[24].count(0)))): python3 version change
         # index position in dflist
         try:
             column2 = dflistDRDQC1.index(clist[24][cnt3])
@@ -843,7 +869,8 @@ if not clist[24] == ['']:
 # 4 locus
 # ABDRC
 if not clist[25] == ['']:
-    for cnt4 in xrange((len(clist[25]) - (clist[25].count(0)))):
+    for cnt4 in range((len(clist[25]) - (clist[25].count(0)))):
+    #for cnt4 in xrange((len(clist[25]) - (clist[25].count(0)))): python3 version change
         # index position in dflist
         try:
             column3 = dflistABDRC1.index(clist[25][cnt4])
@@ -859,7 +886,8 @@ if not clist[25] == ['']:
 
 # ABDQC
 if not clist[26] == ['']:
-    for cnt4 in xrange((len(clist[26]) - (clist[26].count(0)))):
+    for cnt4 in range((len(clist[26]) - (clist[26].count(0)))):
+    #for cnt4 in xrange((len(clist[26]) - (clist[26].count(0)))): python3 version change
         # index position in dflist
         try:
             column3 = dflistABDQC1.index(clist[26][cnt4])
@@ -875,7 +903,8 @@ if not clist[26] == ['']:
 
 # ABDRDQ
 if not clist[27] == ['']:
-    for cnt4 in xrange((len(clist[27]) - (clist[27].count(0)))):
+    for cnt4 in range((len(clist[27]) - (clist[27].count(0)))):
+    #for cnt4 in xrange((len(clist[27]) - (clist[27].count(0)))): python3 version change
         # index position in dflist
         try:
             column3 = dflistABDRDQ1.index(clist[27][cnt4])
@@ -891,7 +920,8 @@ if not clist[27] == ['']:
 
 # ADRDQC
 if not clist[28] == ['']:
-    for cnt4 in xrange((len(clist[28]) - (clist[28].count(0)))):
+    for cnt4 in range((len(clist[28]) - (clist[28].count(0)))):
+    #for cnt4 in xrange((len(clist[28]) - (clist[28].count(0)))): python3 version change
         # index position in dflist
         try:
             column3 = dflistADRDQC1.index(clist[28][cnt4])
@@ -907,7 +937,8 @@ if not clist[28] == ['']:
 
 # BDRDQC
 if not clist[29] == ['']:
-    for cnt4 in xrange((len(clist[29]) - (clist[29].count(0)))):
+    for cnt4 in range((len(clist[29]) - (clist[29].count(0)))):
+    #for cnt4 in xrange((len(clist[29]) - (clist[29].count(0)))): python3 version change
         # index position in dflist
         try:
             column3 = dflistBDRDQC1.index(clist[29][cnt4])
@@ -924,7 +955,8 @@ if not clist[29] == ['']:
 # 5 locus
 # ABDRDQC
 if not clist[30] == ['']:
-    for cnt5 in xrange((len(clist[30]) - (clist[30].count(0)))):
+    for cnt5 in range((len(clist[30]) - (clist[30].count(0)))):
+    #for cnt5 in xrange((len(clist[30]) - (clist[30].count(0)))): python3 version change
         # index position in dflist
         try:
             column4 = dflistABDRDQC1.index(clist[30][cnt5])
@@ -943,5 +975,5 @@ pos1 = 1 - (1 - S1b + S2b - S3b + S4b - S5b) ** 2
 pos2 = 1 - (1 - S1c + S2c - S3c + S4c - S5c) ** 2
 pos3 = 1 - (1 - S1d + S1d - S3d + S4d - S5d) ** 2
 CPRA = (pos * 0.687 + pos1 * 0.147 + pos2 * 0.143 + pos3 * 0.023) * 100
-print CPRA
+print(CPRA)
 
