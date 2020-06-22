@@ -411,7 +411,7 @@ if __name__ == '__main__':
     ABDRDQC = pd.read_csv('./FREQ/ABDRDQC.csv')
 
 # equivalence of antigen types is listed below but decided not to include in the code because was not in the paper.
-# so if the answer you can get from OPTN vs mine is different then I didnt include this in the code.
+# if the answer you get from OPTN versus my calculator is different than I didnt include it. 
 eqDR51 = [ 'DR2','DR15','DR16','DR51']
 eqDR52 = [ 'DR3','DR5','DR6','DR11','DR12','DR13','DR14','DR17','DR18']
 eqDR53 = [ 'DR4','DR7','DR9']
