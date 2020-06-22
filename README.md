@@ -41,7 +41,7 @@ DR51: 5*01, 5*01:01, 5*01:02, 5*02, 5*02:02 DR52: 3*01, 3*01:01, 3*02, 3*02:01, 
 <p style=<"font-family:Arial">Calculation of a Predictive value for transplantation. 
 Andrea A. Zachary and William E. Braun Transplantion 1985 p. 316-317</p>
 
-<p style=<"font-size:12"<font-family:Arial,font-size=10">Calculated PRA (CPRA): The New Measure of Sensitization for Transplant Candidates. J M Cecka. Am J. Transplant 2010 p.26-29 </p>
+<p style=<"font-size:12"<font-family:Arial,font-size=10">Calculated PRA (CPRA): The New Measure of Sensitization for Transplant Candidates. J Michael Cecka. Am J. Transplant 2010 p.26-29 </p>
 
 
 
