@@ -16,7 +16,7 @@ python CPRA.py test.txt
 <div></div>
 
 <div></div>
-For example, this will be your "text.txt" file. Make sure you put all these genotypes for the caluclator. 
+For example, "test.txt" file is your input file. Make sure you put all these genotypes for the caluclator. 
 A:1,2
 B:7,8
 DR:1
@@ -24,6 +24,11 @@ DQ:2
 C:1 </p>
 <div></div>
 
+<div>
+    <div></div>
+    <hr class="styled-hr" />
+    <div></div>
+</div>
 <p style> 
 Please note: 
 BW4 =B5, B5102, B5103, B13, B17, B27, B37, B38(16), B44(12), B47, B49(21), B51(5), B52(5), B53, B57(17), B58(17), B59, B63(15), B77(15) 
