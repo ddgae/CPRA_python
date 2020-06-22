@@ -17,7 +17,7 @@ Andrea A. Zachary and William E. Braun Transplantion 1985 p. 316-317</p>
 (Step 1) python CPRA.py test.txt <br>
 </p>
 
-(Step 2) For example, "test.txt" file is your input file. Make sure you put all these genotypes for the caluclator. <br>
+(Step 2) For example, "test.txt" file is your input file. Make sure you put all these genotypes for the calculator. <br>
 A:1,2 <br>
 B:7,8 <br>
 DR:1 <br>
