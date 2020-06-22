@@ -31,12 +31,7 @@ C:1 </p>
 </div>
 <p style> 
 Please note: 
-BW4 =B5, B5102, B5103, B13, B17, B27, B37, B38(16), B44(12), B47, B49(21), B51(5), B52(5), B53, B57(17), B58(17), B59, B63(15), B77(15) 
-</p>
-
-<p style>
-Bw6= B7, B703, B8, B14, B18, B22, B2708, B35, B39(16), B3901, B3902, B40, B4005, B41, B42, B45(12), B46, B48, B50(21), B54(22), B55(22), B56(22), B60(40), B61(40), B62(15), B64(14), B65(14), B67, B70, B71(70), B72(70), B73, B75(15), B76(15), B78, B81, B82, A9, A23(9), A24(9), A2403, A25(10), A32(19) 
-http://hla.alleles.org/antigens/bw46.html   
+BW4, BW6 can be found in http://hla.alleles.org/antigens/bw46.html   
 </p>
 
 <p style>  
