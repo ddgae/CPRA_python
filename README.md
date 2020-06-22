@@ -1,4 +1,4 @@
-# CPRA Legancy calculator (python version)
+# CPRA Legancy calculator (work for python version 3)
 
 This Program is to calculate the percentage value based on the unacceptable antigens
 <div>
@@ -6,7 +6,8 @@ This Program is to calculate the percentage value based on the unacceptable anti
     <hr class="styled-hr" />
     <div></div>
 </div>
-The dictionary of HLA antigen frequency that was formulated in order to run this program. This version works for python.
+The dictionary of HLA antigen frequency that was formulated in order to run this program. This version works for python 3.
+
 <p style>python CPRA.py test.txt
 Example input text file: (test.txt)
 <div></div>
@@ -16,6 +17,7 @@ DR:1
 DQ:2
 C:1 </p>
 <div></div>
+
 <p style=<"font-family:Arial">Calculation of a Predictive value for transplantation. 
 Andrea A. Zachary and William E. Braun Transplantion 1985 p. 316-317</p>
 
