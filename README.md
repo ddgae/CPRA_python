@@ -25,7 +25,7 @@ DQ:2 <br>
 C:1 <br>
 
 Please note: 
-BW4, BW6 can be found in http://hla.alleles.org/antigens/bw46.html <br>
+BW4, BW6 genotype can be found in http://hla.alleles.org/antigens/bw46.html <br>
 </p>
 <p style>  
 DR51: 5*01, 5*01:01, 5*01:02, 5*02, 5*02:02 DR52: 3*01, 3*01:01, 3*02, 3*02:01, 3*02:02, 3*03, 3*03:01 DR53: 4*01, 4*01:01, 4*01:03 <br>
