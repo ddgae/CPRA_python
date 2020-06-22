@@ -5,7 +5,7 @@ The dictionary of HLA antigen frequency that was formulated in order to run this
 <p style=<"font-family:Arial"> 1. Calculation of a Predictive value for transplantation. 
 Andrea A. Zachary and William E. Braun Transplantion 1985 p. 316-317</p>
 
-<p style=<font-family:Arial,font-size=10"> 2.Calculated PRA (CPRA): The New Measure of Sensitization for Transplant Candidates. J Michael Cecka. Am J. Transplant 2010 p.26-29 </p>
+<p style=<font-family:Arial,font-size=10"> 2. Calculated PRA (CPRA): The New Measure of Sensitization for Transplant Candidates. J Michael Cecka. Am J. Transplant 2010 p.26-29 </p>
 
 <div>
     <div></div>
