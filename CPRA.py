@@ -1,4 +1,4 @@
-""" copyright 2017 David Gae
+""" copyright © 2017 David Gae
     University of California, San Francisco
     usage: python CPRA.py test.txt
     """
